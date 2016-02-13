@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/classicTooltip.css">
+    <link rel="stylesheet" href="style/sharpTooltip.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.2/angular.min.js"></script>
+</head>
+<body ng-controller="myController">
+<style>
+    html {
+        background-color: red;
+    }
+
+    section {
+        margin: 50px;
+    }
+</style>
+<h1>classic</h1>
+<h1>classic</h1>
+<h1>classic</h1>
+<h1>classic</h1>
+<h1>classic</h1>
+<h1>classic</h1>
+
+<section class="classic">
+    <h3>Tesseract, finite but unbounded take root and flourish,
+        <span class="classic-tooltip classic-tooltip-effect-1 ">
+            <span class="classic-tooltip-item">Euclid</span>
+            <span class="classic-tooltip-content  classic-tooltip-wide">
+            <img src="style/tooltip-img/png/Euclid.png"/>
+                <span class="classic-tooltip-text">
+                   <h2>Euclidd,
+                       also known as Euclid of Alexandria,
+                       was a Greek mathematician,
+                       often referred to as the "Father of Geometry".
+                   </h2>    <a href="http://en.wikipedia.org/wiki/Euclid">Wikipedia</a>
+                </span>
+            </span>
+    </span>
+    </h3>
+</section>
+
+<section class="sharp">
+    <blockquote>
+        <p>A man of my <span class="sharp-tooltip sharp-tooltip-turnright"><span
+                class="sharp-tooltip-item">spiritual</span><span
+                class="sharp-tooltip-content"><strong>[spir·it·u·al]</strong> affecting the human spirit or soul as opposed to material or physical things</span></span>
+            intensity does not eat <span class="sharp-tooltip sharp-tooltip-turnleft"><span
+                    class="sharp-tooltip-item">corpses</span><span
+                    class="sharp-tooltip-content"><strong>[corpse]</strong> dead body, body, carcass, skeleton, remains, mortal remains, rotten bacon</span></span>.
+        </p>
+        <footer><span class="sharp-tooltip tooltip-turnright"><span
+                class="sharp-tooltip-item">George Bernard Shaw</span><span
+                class="sharp-tooltip-content"><strong>George Bernard Shaw</strong> (26 July 1856 &ndash; 2 November 1950) was an Irish playwright and a co-founder of the London School of Economics.</span></span>
+        </footer>
+    </blockquote>
+</section>
+<section class="">
+    <ul>
+        <li><a class="round-tooltip round-tooltip-effect-1" href="#">Home<span class="round-tooltip-content"><i
+                class="fa fa-fw fa-home"></i></span></a></li>
+        <li><a class="round-tooltip round-tooltip-effect-2" href="#">About me<span class="round-tooltip-content"><i
+                class="fa fa-fw fa-user"></i></span></a></li>
+        <li><a class="round-tooltip round-tooltip-effect-3" href="#">Photography<span class="round-tooltip-content"><i
+                class="fa fa-fw fa-camera-retro"></i></span></a></li>
+        <li><a class="round-tooltip round-tooltip-effect-4" href="#">Work<span class="round-tooltip-content"><i
+                class="fa fa-fw fa-briefcase"></i></span></a></li>
+        <li><a class="round-tooltip round-tooltip-effect-5" href="#">Contact<span class="round-tooltip-content"><i
+                class="fa fa-fw fa-envelope"></i></span></a></li>
+    </ul>
+</section>
+
+<section>
+
+    <div class="curved-tooltip curved-tooltip-west">
+        <span class="curved-tooltip-item"></span>
+        <span class="curved-tooltip-content">Did you know that you can travel from A to B?</span>
+    </div>
+    <div class="curved-tooltip curved-tooltip-west">
+        <span class="curved-tooltip-item"></span>
+        <span class="curved-tooltip-content">There are train stations in almost every city!</span>
+    </div>
+    <div class="curved-tooltip curved-tooltip-east">
+        <span class="curved-tooltip-item"></span>
+        <span class="curved-tooltip-content">Staying home for the weekend again? Seriously?</span>
+    </div>
+    <div class="curved-tooltip curved-tooltip-east">
+        <span class="curved-tooltip-item"></span>
+        <span class="curved-tooltip-content">Life is really short, you know? Get out there!</span>
+    </div>
+
+</section>
+
+<section class="bloated">
+    <ul>
+        <li><a class="bloated-tooltip" href="#">helllllllllllo<span class="bloated-tooltip-content">You can easily navigate the city by car.</span></a>
+        </li>
+        <li><a class="bloated-tooltip" href="#">hillllllllllll<span class="bloated-tooltip-content">Get some fresh air and ride a slick bike.</span></a>
+        </li>
+        <li><a class="bloated-tooltip" href="#"><i class="fa fa-fw fa-plane"></i><span class="bloated-tooltip-content">Be über-super fancy and take the train.</a>
+        </li>
+        <li><a class="bloated-tooltip" href="#"><i class="fa fa-fw fa-bus"></i><span class="bloated-tooltip-content">Come on, ride the big blue bus with us.</span></a>
+        </li>
+        <li><a class="bloated-tooltip" href="#"><i class="fa fa-fw fa-fighter-jet"></i><span
+                class="bloated-tooltip-content">Why not? You'll be there in mach time.</span></a>
+        </li>
+    </ul>
+</section>
+<section class="box">
+    <p>Tesseract, finite but unbounded take root and flourish, <span class="box-tooltip box-tooltip-effect-1"><span
+            class="box-tooltip-item">Euclid</span><span class="box-tooltip-content clearfix"><span
+            class="box-tooltip-text"><strong>Euclid</strong>, also known as Euclid of Alexandria, was a Greek mathematician, often referred to as the "Father of Geometry". He was active in Alexandria during the reign of Ptolemy I. <a
+            href="http://en.wikipedia.org/wiki/Euclid">Wikipedia</a></span></span></span> rogue laws of physics, star
+        stuff harvesting star light, encyclopaedia galactica are creatures of the cosmos the only home we've ever known
+        ship of the imagination prime number <span class="box-tooltip box-tooltip-effect-2"><span
+                class="box-tooltip-item">quasar</span><span class="box-tooltip-content clearfix"><span
+                class="box-tooltip-text"><strong>Quasars</strong> are believed to be powered by accretion of material into supermassive black holes in the nuclei of distant galaxies, making these luminous versions of the general... <a
+                href="http://en.wikipedia.org/wiki/Quasar">Wikipedia</a></span></span></span> courage of our questions.
+    </p>
+    <p>Colonies. Jean-François Champollion, billions upon billions descended from astronomers the sky calls to us! Made
+        in the interiors of collapsing stars, billions upon billions radio telescope paroxysm of global death not a
+        sunrise but a galaxyrise, gathered by gravity permanence of the stars?</p>
+
+</section>
+
+<section class="comic">
+    <div class="comic-tooltip comic-tooltip-effect-1">
+        <a href="#"><img src="style/tooltip-img/png/user2.png" alt="user2"/><h4>Jerry Greenfield</h4></a>
+        <span class="comic-tooltip-content">That design needs some brighter colors...</span>
+        <div class="comic-tooltip-shape">
+            <svg viewBox="0 0 200 150" preserveAspectRatio="none">
+                <path id="path1" d="M184.112,144.325c0.704,2.461,3.412,4.016,5.905,3.611c2.526-0.318,4.746-2.509,4.841-5.093
+    								c0.153-2.315-1.483-4.54-3.703-5.155c-2.474-0.781-5.405,0.37-6.612,2.681c-0.657,1.181-0.845,2.619-0.442,3.917"/>
+                <path id="path2" d="M159.599,137.909c0.975,3.397,4.717,5.548,8.161,4.988c3.489-0.443,6.558-3.466,6.685-7.043
+    								c0.217-3.19-1.805-6.34-5.113-7.118c-3.417-1.079-7.469,0.508-9.138,3.701c-0.91,1.636-1.166,3.624-0.612,5.414"/>
+                <path id="path3" d="M130.646,125.253c1.368,4.656,6.393,7.288,10.806,6.718c4.763-0.451,9.26-4.276,9.71-9.394
+    								c0.369-3.779-1.902-7.583-5.244-9.144c-5.404-2.732-12.557-0.222-14.908,5.448c-0.841,1.945-1.018,4.214-0.388,6.294"/>
+                <path id="path4" d="M49.933,13.549c10.577-20.192,35.342-7.693,37.057,1.708c3.187-5.687,8.381-10.144,14.943-12.148
+    								c10.427-3.185,21.37,0.699,28.159,8.982c15.606-3.76,31.369,4.398,35.804,18.915c3.269,10.699-0.488,21.956-8.71,29.388
+    								c0.395,0.934,0.762,1.882,1.064,2.873c4.73,15.485-3.992,31.889-19.473,36.617c-5.073,1.551-10.251,1.625-15.076,0.518
+    								c-3.58,10.605-12.407,19.55-24.386,23.211c-15.015,4.586-30.547-0.521-39.226-11.624c-2.861,1.991-6.077,3.564-9.583,4.636
+    								c-18.43,5.631-32.291,2.419-38.074-19.661c-2.645-10.096,3.606-18.51,3.606-18.51C2.336,71.24,1.132,49.635,16.519,42.394
+    								C-1.269,28.452,18.559,0.948,37.433,6.818C42.141,8.282,49.933,13.549,49.933,13.549z"/>
+            </svg>
+        </div>
+    </div>
+    <div class="comic-tooltip comic-tooltip-effect-2">
+        <a href="#"><img src="style/tooltip-img/png/user3.png" alt="user3"/><h4>Caroline Wild</h4></a>
+        <span class="comic-tooltip-content">Today we have an interesting typographic challenge...</span>
+        <div class="comic-tooltip-shape">
+            <svg viewBox="0 0 200 150" preserveAspectRatio="none">
+                <polygon
+                        points="29.857,3.324 171.111,3.324 196.75,37.671 184.334,107.653 104.355,136.679 100,146.676 96.292,136.355 16.312,107.653 3.25,37.671"/>
+            </svg>
+        </div>
+    </div>
+</section>
+
+<section class="line">
+    <ul>
+        <li>
+            <a class="line-tooltip" href="#"><i class="fa fa-fw fa-envelope-o"></i><span
+                    class="line-tooltip-content"><span
+                    class="line-tooltip-text"><span class="line-tooltip-inner">Howdy, Ben!<br/> There are 13 unread messages in your inbox.</span></span></span></a>
+        </li>
+    </ul>
+</section>
+
+<section class="flip">
+    <ul>
+        <li>
+            <a class="flip-tooltip flip-tooltip-effect-1" href="#"><i class="fa fa-fw fa-camera-retro"></i>
+                   								<span class="flip-tooltip-content">
+                   									<span class="flip-tooltip-front"><img
+                                                            src="style/tooltip-img/png/user4.png"
+                                                            alt="user4"/></span>
+                   									<span class="flip-tooltip-back">Sarah Cook</span>
+                   								</span>
+            </a>
+        </li>
+        <li>
+            <a class="flip-tooltip flip-tooltip-effect-2" href="#"><i class="fa fa-fw fa-paint-brush"></i>
+                   								<span class="flip-tooltip-content">
+                   									<span class="flip-tooltip-front"><img
+                                                            src="style/tooltip-img/png/user2.png"
+                                                            alt="user2"/></span>
+                   									<span class="flip-tooltip-back">Harry Belverde</span>
+                   								</span>
+            </a>
+        </li>
+        <li>
+            <a class="flip-tooltip flip-tooltip-effect-3" href="#"><i class="fa fa-fw fa-file-text"></i>
+                   								<span class="flip-tooltip-content">
+                   									<span class="flip-tooltip-front"><img
+                                                            src="style/tooltip-img/png/user3.png"
+                                                            alt="user3"/></span>
+                   									<span class="flip-tooltip-back">Zoe Shelton</span>
+                   								</span>
+            </a>
+        </li>
+    </ul>
+</section>
+<script src="main.js"></script>
+</body>
+</html>
